@@ -1,5 +1,6 @@
 with open("input.txt", "r", encoding="utf-8") as file:
-    lines = [line.strip().split("\t") for line in file]
+    # lines = [line.strip().split("\t") for line in file]
+    lines = [line.strip().split() for line in file]
 
 for i, line in enumerate(lines):
     if line[0]:

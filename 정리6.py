@@ -1,4 +1,4 @@
-with open("input.txt", "r", encoding="utf-8") as file:
+with open("input_test.txt", "r", encoding="utf-8") as file:
     lines = [line.strip().split("\t") for line in file]
 
 # 첫 번째 줄의 항목 개수 구하기
