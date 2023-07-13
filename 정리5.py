@@ -1,5 +1,5 @@
 # input.txt 파일 열기 및 읽기, utf-8로 인코딩
-with open("input.txt", "r", encoding="utf-8") as file:
+with open("input_test.txt", "r", encoding="utf-8") as file:
     # 파일의 각 줄을 탭으로 분할하여 리스트로 변환
     lines = [line.strip().split("\t") for line in file]
     print (lines)
